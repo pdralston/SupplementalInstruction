@@ -1,0 +1,84 @@
+{
+  "questions" : [
+    {
+    "question":"What compiler do we use in this class?",
+    "answers":{ 
+      "option1":"cpp",
+      "option2":"Cygwin",
+      "option3":"BASH",
+      "option4":"g++"
+    },
+    "correct": 3
+    },
+    {
+    "question":"A resource to help me in this class is:",
+    "answers":{ 
+      "option1":"edparrish.net",
+      "option2":"Supplemental instruction",
+      "option3":"C++ For Everyone",
+      "option4":"All of the above"
+    },
+    "correct": 3
+    },
+    {
+    "question":"Why do we use text editors to make code?",
+    "answers":{ 
+      "option1":"They format the code to be pretty",
+      "option2":"They give you syntax suggestions",
+      "option3":"They save our code as plain text",
+      "option4":"They autmatically save to the cloud"
+    },
+    "correct": 2
+    },
+    {
+    "question":"The standard output stream is:",
+    "answers":{ 
+      "option1":"cout",
+      "option2":"cin",
+      "option3":"<<",
+      "option4":"return"
+    },
+    "correct": 0
+    },
+    {
+    "question":"The standard input stream is:",
+    "answers":{ 
+      "option1":"cout",
+      "option2":"cin",
+      "option3":"<<",
+      "option4":"return"
+    },
+    "correct": 1
+    },
+    {
+    "question":"CPU instructions are performed:",
+    "answers":{ 
+      "option1":"algebraically",
+      "option2":"left to right",
+      "option3":"randomly",
+      "option4":"sequentially"
+    },
+    "correct": 3
+    },
+    {
+    "question":"0010 + 0101 =",
+    "answers":{ 
+      "option1":"16",
+      "option2":"7",
+      "option3":"42",
+      "option4":"6"
+    },
+    "correct": 1
+    },
+    {
+    "question":"0110111",
+    "answers":{ 
+      "option1":"55",
+      "option2":"2",
+      "option3":"42",
+      "option4":"Not a number"
+    },
+    "correct": 0
+    }
+  ]
+}

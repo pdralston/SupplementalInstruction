@@ -1,0 +1,126 @@
+/**
+* Author: Perry David Ralston Jr.
+* Fall 2018
+*/
+
+:root { /* Site Colors */
+	--main-bg: #2C3E50;
+	--secondary-purple: #502C50;
+	--secondary-grey: #6C757D;
+	--tertiary: #503E2C;
+	--deep-green: #2C502C;
+	--font: #E5E7E9;
+    --notify: #DFE83E;
+}
+
+/* html tag customization */
+a {
+	color: white;
+}
+
+a:hover {
+	color: green;
+	text-decoration: none;
+}
+body{
+	font-family: Helvetica, sans-serif;
+}
+
+html, body {
+	height: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+/* custom class definitions */
+.announcements {
+	background-color: var(--secondary-grey);
+	padding-bottom: 10px;
+}
+
+.announcements p {
+	font-weight: bold;
+	display: list-item;
+	list-style-type: disc;
+	list-style-position: inside;
+	padding-left: 10px;
+}
+
+.calendar {
+  padding-top: 30px;
+  padding-left: 5px;
+  padding-right: 5px; 
+}
+
+.col-centered {
+	float: none;
+	margin: 0 auto;
+}
+
+.container {
+    background-color: var(--main-bg);
+    color: var(--font);
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.correct {
+    background-color: var(--notify);
+}
+
+.hidden {
+  display: none;
+}
+
+.site-content {
+  padding-top: 8px;
+}
+
+.quiz-text {
+    font-weight:bold;
+    font-size:20px;
+}
+
+.quiz-question {
+    background-color:var(--secondary-grey);
+    padding-top:15px;
+    padding-left:15px;
+    margin-top: 15px;
+}
+
+.resource{
+    color: var(--secondary-purple);
+    padding-left: 15px;
+}
+
+.resource a{
+    color: var(--main-bg);
+    font-weight: bold;
+}
+
+.resource a:hover {
+	color: green;
+	text-decoration: none;
+}
+
+/* custom id definitions */
+
+#break {
+	clear:both; 
+	background-color: var(--main-bg); 
+	height: 3px"
+}
+
+#contact-button {
+  max-width: 130px;
+}
+
+#contact-me {
+  max-width: 130px;
+}
+
+#quiz-submit {
+    margin-top:15px;
+}
